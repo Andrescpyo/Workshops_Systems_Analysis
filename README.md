@@ -1,18 +1,34 @@
-## Getting Started
+**Repository of Systems Analysis Workshops**
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This repository houses a collection of projects developed as part of the Systems Analysis course workshops. Each folder represents a specific workshop, with its respective documentation and source code.
 
-## Folder Structure
+## Repository Structure
 
-The workspace contains two folders by default, where:
+* **Structure by Workshop:** Each workshop is organized in an individual folder with a descriptive name (e.g., `taller1_deteccion_motivos`).
+* **Contents of Each Folder:**
+    * `README.md`: Detailed description of the workshop, objectives, methodology, results and conclusions.
+    * `source_code`: Contains the project's source code files (e.g., `Main.java`, `Sequences.java`).
+    * `documentation`: Additional documentation, such as diagrams, reports or presentations.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Workshops
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+* **Workshop 1: Motif Detection in Genetic Sequences**
+    * **Description:** Implementation of an algorithm to identify recurring patterns (motifs) in artificial genetic sequences.
+    * **Technologies:** Java, pattern search algorithms.
+    * **Results:** Development of an efficient program for motif detection, with evaluation of its performance and precision.
+    * **[Link to workshop folder]**
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+* **[Add other workshops here]**
 
-## Dependency Management
+## Contact
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+* **Name:** [Andres Cerdas Padilla]
+* **Email:** [cerdaspadilla@gmail.com]
+* **GitHub:** [Andrescpyo](https://github.com/Andrescpyo)
+
+### Tools Used
+
+* **Programming language:** Java
+* **Version control:** Git
+
+**I will become the rock star of systems engineers!**
