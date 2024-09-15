@@ -16,7 +16,7 @@ This repository houses a collection of projects developed as part of the Systems
     * **Description:** Implementation of an algorithm to identify recurring patterns (motifs) in artificial genetic sequences.
     * **Technologies:** Java, pattern search algorithms.
     * **Results:** Development of an efficient program for motif detection, with evaluation of its performance and precision.
-    * **[Link to workshop folder]**
+    * **[[Workshop 1 Documentation]](https://github.com/Andrescpyo/Workshops_Systems_Analysis/tree/main/workshop_1)**
 
 * **[Add other workshops here]**
 
