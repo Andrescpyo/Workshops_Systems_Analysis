@@ -1,18 +1,18 @@
-## Getting Started
+# Detection of Motifs in Artificial Genetic Sequences
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Description
 
-## Folder Structure
+This repository contains the source code of a project developed for the first workshop of the Systems Analysis course, focused on the detection of motifs in artificial genetic sequences. The program, implemented in Java, generates random DNA sequences, calculates their entropy, and searches for repetitive patterns (motifs) of a specific size.
 
-The workspace contains two folders by default, where:
+## Features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+* **Sequence generation:** Creates random DNA sequences of configurable length, composed of the bases A, C, G, and T.
+* **Entropy calculation:** Measures the randomness of each sequence using Shannon entropy.
+* **Sequence filtering:** Selects sequences with an entropy above the average to focus on more informative regions.
+* **Motif detection:** Identifies patterns of subsequences that are repeated most frequently in the filtered sequences.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Project Structure
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+* **Workshop.java:** Contains the main implementation of the algorithm, including sequence generation, entropy calculation, filtering, and motif search.
+* **secuencias_todas.txt:** File that stores all generated sequences.
+* **secuencias_filtradas.txt:** File that contains the sequences selected after entropy filtering.
