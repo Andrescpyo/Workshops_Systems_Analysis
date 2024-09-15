@@ -101,7 +101,7 @@ public class Workshop {
     }
 
     private static String generarSecuencia(int tamaño, double probabilidadA, double probabilidadC, double probabilidadG, double probabilidadT) {
-        // Generar una secuencia genética artificial de tamaño 'tamaño' con probabilidades dadas
+        // Genera una secuencia genética artificial de tamaño 's' con las probabilidades dadas
         StringBuilder sb = new StringBuilder();
         Random random = new Random();
         for (int i = 0; i < tamaño; i++) {
